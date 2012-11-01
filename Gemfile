@@ -9,11 +9,11 @@ gem 'sqlite3'
 
 # JSB added for RSPEC integration per page 72 - JSB start
 group :development do
-	gem 'rspec-rails', '2.0.1' #hoping for most recent to be in path
+	gem 'rspec-rails', '2.4.0' #hoping for most recent to be in path
 end
 
 group :test do
-	gem 'rspec' , '2.0.1' #bundle install tell sme 2.0.1 is not available to me
+	gem 'rspec' , '2.4.0' #bundle install tell sme 2.0.1 is not available to me
 	gem 'webrat', '0.7.1'
 end
 # end JSB addition
