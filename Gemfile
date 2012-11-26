@@ -1,6 +1,10 @@
 # pasted from Railstutorial.org
 source 'https://rubygems.org'
 
+gem 'rspec'
+
+gem 'rspec-rails'
+
 gem 'rails', '3.2.9'
 
 group :development do
