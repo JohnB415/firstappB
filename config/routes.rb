@@ -1,13 +1,14 @@
 SampleApp::Application.routes.draw do
   get "static_pages/home"
+#maps requests for the URI /static_pages/home to the home action in the StaticPages controller.
 
   get "static_pages/help"
+  get "static_pages/about"
 
   resources :microposts
   resources :users
 
-  get "pages/home"
-
+  get "pages/home" 
   get "pages/contact"
 
   get "pages/about"
